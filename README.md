@@ -1,6 +1,5 @@
   
-# Property Title Token Project
-### Udacity Blockchain Capstone
+# Udacity Real Estate Blockchain Capstone
 
 ## How to run this project?    
 
