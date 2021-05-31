@@ -11,9 +11,9 @@
   "author": "pk <pkrasam@gmail.com> (https://ipfs.infura.io/ipfs/QmSXiR9Khm3yo1J67nUopvVBxFJ8YGN2fUGZ34Etr3m92x/)",
   "license": "MIT",
   "devDependencies": {
-    "mocha": "^8.0.1",
     "chai": "^4.2.0",
     "lite-server": "2.4.0",
+    "mocha": "^8.0.1",
     "truffle": "5.1.27",
     "truffle-hdwallet-provider": "^1.0.17"
   },
