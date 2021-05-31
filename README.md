@@ -67,10 +67,10 @@ https://rinkeby.etherscan.io/tx/0x9d1c7229ca5bee11ea720c5b972d975ff4f4d4854c7bf8
 
 # Project Resources
 
-- [Remix - Solidity IDE](https://remix.ethereum.org/)
-- [Visual Studio Code](https://code.visualstudio.com/)
-- [Truffle Framework](https://truffleframework.com/)
-- [Ganache - One Click Blockchain](https://truffleframework.com/ganache)
+- [Remix](https://remix.ethereum.org/)
+- [VS Code](https://code.visualstudio.com/)
+- [Truffle](https://truffleframework.com/)
+- [Ganache](https://truffleframework.com/ganache)
 - [Open Zeppelin ](https://openzeppelin.org/)
 - [Interactive zero knowledge 3-colorability demonstration](http://web.mit.edu/~ezyang/Public/graph/svg.html)
 - [Docker](https://docs.docker.com/install/)
