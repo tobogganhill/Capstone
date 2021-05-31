@@ -8,15 +8,15 @@
 Run npm install
 
 **Compile all contracts**  
-cd eth-contracts
+cd eth-contracts  
 truffle compile
 
 **Run all tests**  
-cd eth-contracts
+cd eth-contracts  
 truffle test
 
 **Run a test for a specific contract**  
-cd eth-contracts
+cd eth-contracts  
 truffle test test/TestERC721Mintable.js
 
 **Package versions**  
