@@ -42,7 +42,7 @@ contract SolnSquareVerifier is ERC721Token {
     // event to emit when a solution is not unique
     event Rejected(string str);
 
-    // event to emit when a solution is not unique
+    // event to emit when a solution is unique
     event Approved(string str);
 
 

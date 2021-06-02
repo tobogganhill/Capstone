@@ -28,7 +28,7 @@ const HDWalletProvider = require('truffle-hdwallet-provider');
 const infuraKey = '';
 
 const mnemonic =
-	'width menu legend mobile reopen economy hello rabbit pave mouse time year';
+	'supreme brief village together also kit swing family scan salute flame must';
 
 module.exports = {
 	/**
@@ -62,8 +62,8 @@ module.exports = {
 		// 			mnemonic,
 		// 			`https://rinkeby.infura.io/v3/${infuraKey}`
 		// 		),
-		// 	network_id: 4, // ropsten's id
-		// 	gas: 4500000, // ropsten has a lower block limit than mainnet
+		// 	network_id: 4, // rinkeby's id
+		// 	gas: 4500000,
 		// 	gasPrice: 10000000000,
 		// },
 

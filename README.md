@@ -9,7 +9,11 @@ Run npm install
 
 **Compile all contracts**  
 cd eth-contracts
-truffle compile
+truffle compile --all
+truffle migrate --reset
+
+(when migrating to the Rinkeby testnet do the following:)
+truffle migrate --reset --network rinkeby
 
 **Run all tests**  
 cd eth-contracts

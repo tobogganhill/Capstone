@@ -13,7 +13,7 @@ contract('TestERC721Mintable', (accounts) => {
 		before(async function () {
 			this.contract = await ERC721MintableComplete.new({ from: account_one });
 
-			// TODO: mint multiple tokens
+			// mint multiple tokens
 
 			this.contract.mint(account_two, 1, { from: account_one });
 			this.contract.mint(account_three, 2, { from: account_one });
