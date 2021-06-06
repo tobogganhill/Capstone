@@ -25,10 +25,11 @@
 // const mnemonic = fs.readFileSync(".secret").toString().trim();
 
 const HDWalletProvider = require('truffle-hdwallet-provider');
-const infuraKey = '';
+const infuraKey = '326ec56c5e124003a2dbc96fd4c0cfc5';
 
+// when using Rinkeby: mnemonic is private key of MetaMask Rinkeby account
 const mnemonic =
-	'supreme brief village together also kit swing family scan salute flame must';
+	'65d916b17c1e4b2d3d770d37f7093cbb71929a40644bbccad98020ea1a7befdb';
 
 module.exports = {
 	/**
@@ -48,24 +49,24 @@ module.exports = {
 		// tab if you use this network and you must also set the `host`, `port` and `network_id`
 		// options below to some value.
 		//
-		development: {
-			host: '127.0.0.1', // Localhost (default: none)
-			port: 7545, // Standard Ethereum port (default: none)
-			network_id: '*', // Any network (default: none)
-			gas: 6700000, // Gas sent with each transaction (default: ~6700000)
-			gasPrice: 20000000000,
-		},
-
-		// rinkeby: {
-		// 	provider: () =>
-		// 		new HDWalletProvider(
-		// 			mnemonic,
-		// 			`https://rinkeby.infura.io/v3/${infuraKey}`
-		// 		),
-		// 	network_id: 4, // rinkeby's id
-		// 	gas: 4500000,
-		// 	gasPrice: 10000000000,
+		// development: {
+		// 	host: '127.0.0.1', // Localhost (default: none)
+		// 	port: 7545, // Standard Ethereum port (default: none)
+		// 	network_id: '*', // Any network (default: none)
+		// 	gas: 6700000, // Gas sent with each transaction (default: ~6700000)
+		// 	gasPrice: 20000000000,
 		// },
+
+		rinkeby: {
+			provider: () =>
+				new HDWalletProvider(
+					mnemonic,
+					`https://rinkeby.infura.io/v3/${infuraKey}`
+				),
+			network_id: 4, // rinkeby's id
+			gas: 4500000,
+			gasPrice: 10000000000,
+		},
 
 		// Another network with more advanced options...
 		// advanced: {
