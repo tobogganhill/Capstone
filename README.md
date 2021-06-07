@@ -40,34 +40,20 @@ zokrates/output_files/zokrates/inc_proof.json
 
 ### Deploy SolnSquareVerifier contract to Rinkeby network
 
-**Contract address:** 0x0F275cac37a081F6B33a7cFa7cCa0cC05E7512e3
-https://rinkeby.etherscan.io/address/0x0F275cac37a081F6B33a7cFa7cCa0cC05E7512e3
+**Contract address:**
+https://rinkeby.etherscan.io/address/0x0A6988a48B36d00a08ED7F3D54a056287f7C2788
 
 ### Generate OpenSea marketplace
 
-https://rinkeby.opensea.io/assets/property-title-token
+Creating Address: 0x7a29058ae6706ee8646b96ba7d4924465e60498e
 
-### Purchase those 5 tokens using a different address
+https://testnets.opensea.io/Capstone_Real_Estate
 
-**Token 1**  
-https://rinkeby.opensea.io/assets/0x0f275cac37a081f6b33a7cfa7cca0cc05e7512e3/1
-https://rinkeby.etherscan.io/tx/0x05a19619b6e3bea80f617c29a0869b10d9c3ec216251da5284d3b5b0b5d265ee
+### Purchase 5 tokens using a different address
 
-**Token 2**  
-https://rinkeby.opensea.io/assets/0x0f275cac37a081f6b33a7cfa7cca0cc05e7512e3/2
-https://rinkeby.etherscan.io/tx/0x571eb270a1aca4148ed07807f5772beecc9672c4bf42a84f34a6d0644b0a74a8
+Purchasing Address: 0xfb5b24142979232948f4b562403db06f73f0f577
 
-**Token 3**  
-https://rinkeby.opensea.io/assets/0x0f275cac37a081f6b33a7cfa7cca0cc05e7512e3/3
-https://rinkeby.etherscan.io/tx/0xe67825c77518f2029871e1fe301ad59e41a06eda948617e7c708d83f987426b2
-
-**Token 4**  
-https://rinkeby.opensea.io/assets/0x0f275cac37a081f6b33a7cfa7cca0cc05e7512e3/4
-https://rinkeby.etherscan.io/tx/0xf6388464f845368af21ecffd2b9c04c2bcaccdf6e0ebaba483e8e1ce802ab261
-
-**Token 5**  
-https://rinkeby.opensea.io/assets/0x0f275cac37a081f6b33a7cfa7cca0cc05e7512e3/5
-https://rinkeby.etherscan.io/tx/0x9d1c7229ca5bee11ea720c5b972d975ff4f4d4854c7bf8676c7f243e44f7d98a
+Token IDs: 100, 101, 102, 103, 104
 
 # Project Resources
 
